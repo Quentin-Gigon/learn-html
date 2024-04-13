@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <!--title-->
+    <title> My first website</title>
+
+     <!--meta tags-->
+    <!--meta tags provide metadata about the HTML document that cannot be expressed using title, base, link, style, and script elements-->
+    <meta charset="UTF-8">
+    <meta name="description" content="Free HTML tutorial">
+    <meta name="keywords" content="HTML, turotial, beginners">
+    <meta name="author" content="John Doe">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="refresh" content="">
+</head>
+
+
+<body style="background-color: beige;">
+    <!-- This is a comment -->
+    <!--headers-->
+    <h1>This is my website</h1>
+    <hr>
+    <h1>I like pizza<h1>
+    <br>
+    <h2>I like pizza<h2>
+    <h3>I like pizza<h3>  
+    <h4>I like pizza<h4>
+    <h5>I like pizza<h5>
+    <h6>I like pizza<h6>
+    <br>
+
+    <!--paragraphs-->
+    <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum sint placeat sunt repellat fugiat exercitationem, ratione deserunt itaque, dolores et nihil quas voluptate doloremque laudantium magni consequatur iure sapiente! Doloremque.</p>
+    <p> Lorem, ipsum dolor sit amet consectetur adipisicing elit. Natus beatae aspernatur error nesciunt laborum sed vitae saepe atque autem labore, maxime excepturi minus consectetur unde voluptatibus aliquid nostrum. Nihil, qui.</p>    
+
+    <!--website links-->
+    <a href="https://www.google.com" target = _blank title ="This takes you to Google">
+        Google
+    </a>
+    <br>
+
+    <!--link to other pages.html-->
+    <a href="page2.html" target = _blank title ="This takes you to page2">
+        Go to page 2
+    </a>
+    <br>
+    <!--email link-->
+    <a href="mailto:fake123@gmail.com" target = _blank title ="Click here to send an email to...">
+        Email me
+    </a>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+
+    <!--images+image link-->
+    <a href = "https://en.wikipedia.org/wiki/Money">
+    <img src="images/Money_Emoji_Icon_59b7293e-e703-4ba4-b3c3-a7b9401f89fb_large.png.webp" height="100px" width="100px" alt="Money Emoji" title="dolarzzzz">
+    </a>
+    <br>
+    <br>
+    <br>
+    <br>
+
+    <!--MP3-->
+    <audio controls src = "/mp3/forest-with-small-river-birds-and-nature-field-recording-6735.mp3">
+        <source src="/mp3/forest-with-small-river-birds-and-nature-field-recording-6735.mp3">
+        Your browser does not support the audio element.
+    </audio>
+    <br>
+    <br>
+    <br>
+
+    <!--MP4-->
+    <video controls loop src = "mp4/7565438-hd_1080_1920_25fps.mp4" height = 200 >
+        <!--WebM, for example-->
+        <source src="mp4/7565438-hd_1080_1920_25fps.WebM">
+        Your browser does not support the video element.
+    </video>
+
+    <!--HTML text formatting tags-->
+    <!--bold-->
+    <p>This is <b>bold</b> text</p>
+    <!--italic-->
+    <p>This is <i>italic</i> text</p>
+    <!--big-->
+    <p>This is <big>big</big> text</p>
+    <!--small-->
+    <p>This is <small>small</small> text</p>
+    <!--subscript-->
+    <p>This is <sub>subscript</sub> text</p>
+    <!--superscript-->
+    <p>This is <sup>superscript</sup> text</p>
+    <!--underline-->
+    <p>This is <ins>inserted</ins> text</p>
+    <!--crossed out-->
+    <p>This is <del> deleted</del> text</p>
+    <!--highlighted-->
+    <p>This is <mark>marked</mark> text</p>
+
+    <!--Lists-->
+    <!--unordered list-->
+    <h4>Unordered List</h4>
+    <ul>
+        <li>Pizza</li>
+        <!--nested list-->
+        <ul>
+            <li>Pepperoni</li>
+            <li>Vegetarian</li>
+            <li>Meat Lovers</li>
+        <li>Ice cream</li>
+        <li>Chocolate</li>
+        
+    </ul>
+
+    <!--ordered list-->
+    <h4>Ordered List</h4>
+    <ol type = "i">
+        <li>Sports</li>
+        <li>Shower</li>
+        <li>Breakfast</li>
+    </ol>
+
+    <!--description list-->
+    <h4>Description List</h4>
+    <dl>
+        <!--dt means definition term-->
+        <dt>HTML</dt>
+        <!--dd means definition description-->
+        <dd>Structure of webpage</dd>
+        <dt>CSS</dt>
+        <dd>Style of webpage</dd>
+        <dt>Javascript</dt>
+        <dd>Functionality of webpage</dd>
+
+    <!--Tables-->
+    <h4>Store Hours</h4>
+    <table bgcolor="black" width = 700>
+        <!--table row-->
+        <tr bgcolor="grey">
+            <!--table header-->
+            <th>Monday</th>
+            <th>Tuesday</th>
+            <th>Wednesday</th>
+            <th>Thursday</th>
+            <th>Friday</th>
+            <th>Saturday</th>
+            <th>Sunday</th>
+        </tr>
+        <tr bgcolor="lightgrey" align="center">
+            <!--table data-->
+            <td>9am-5pm</td>
+            <td>9am-5pm</td>
+            <td>9am-5pm</td>
+            <td>9am-5pm</td>
+            <td>9am-5pm</td>
+            <td>9am-3pm</td>
+            <td>Closed</td>
+        </tr>
+    </table>
+
+    <!--Colors (with a bit of CSS)-->
+    <!--See body tag above for how to change background color-->
+    <!--set color with name of color-->
+    <h1 style="color: green;">I like pizza</h1>
+    <hr>
+    <!--set color with rgb value-->
+    <h1 style="color:rgb(5, 10, 150)">I like pizza<h1>
+    <!--set color with hex value-->
+    <h1 style="color:#ff0000">I like pizza<h1>
+    <br>
+
+    <p style="background-color: #222222; color: aqua;">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita ipsum quae eaque perferendis ratione dolore numquam dolorem aspernatur accusamus explicabo facilis autem, quis recusandae optio alias consectetur pariatur! Asperiores, quisquam!
+    </p>
+
+    <!--span+div tags-->
+    <!--span adds markup to text or portion of a document -->
+    <p> This is <span style="color: red;">red</span> text</p>
+    <!--div defines a division of a document-->
+    <div style="background-color: yellow; color: black;">
+        <p> This is a division 1</p>
+        <p> This is a division 2</p>
+        <p> This is a division 3</p>
+    <!--better to use divs than setting style for all 3 paragraphs independently-->
+    </div>
+
+    <!--iframe-->
+    <!--iframe is used to display a web page within a web page, used e.g. for ads, hacking..-->
+    <iframe src="https://www.bing.com/?toWww=1&redig=24E6DDA52F2548D5B3A388C71F14576E" width="200" height="200"></iframe>
+    <br> 
+
+    <!--buttons-->
+    <!--button with link and color+borders styling-->
+    <a href="https://www.google.com">
+        <button style="background-color: green; color: white;border-radius: 20px;">Click me</button>
+    </a>
+    <br> 
+    <br> 
+    <!--button with javascript functionality-->
+    <button onclick="doSomething()">Click me</button>
+    <p id="test">Hello</p>
+    <script>
+        function doSomething(){
+            document.getElementById("test").innerHTML = "Goodbye";
+        }
+    </script>
+
+    <!--forms-->
+    <!--form with input fields-->
+    <form action="action_page.php" method="POST">
+        <!--label for input field-->
+        <div>
+        <label for="fname">first name:</label>
+        <input type="text" id="fname" name="fname" placeholder="Spongebob">
+        </div>
+
+        <br>
+        <!--label for name field-->
+        <div>
+        <label for="lname">last name:</label>
+        <input type="text" id="lname" name="lname" placeholder="Squarepants">
+        </div>
+
+        <br>
+        <!--label for password field-->
+        <div>
+            <label for="pass">password:</label>
+            <input type="password" id="pass" name="pass" maxlength="12">
+        </div>
+
+        <br>
+        <!--label for email field-->
+        <div>
+            <label for="email">email:</label>
+            <input type="email" id="email" name="email" placeholder="SPants@gmail.com" required>
+        </div>
+
+        <br>
+
+        <!--label for phone field-->
+        <div>
+            <label for="phone">phone:</label>
+            <input type="tel" id="phone" name="phone" placeholder="123-456-7890" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}">
+        </div>
+
+        <br>
+
+        <!--label for date field-->
+        <div>
+            <label for="dob">date of birth:</label>
+            <input type="date" id="dob" name="dob">
+        </div>
+
+        <br>
+
+        <!--label for title field using radio-->
+        <div>
+            <label>Mr.</label>
+            <input type="radio" id="Mr." name="title" value="Mr.">
+
+            <label>Mrs.</label>
+            <input type="radio" id="Mrs" name="title" value="Mrs.">
+
+            <label>PhD.</label>
+            <input type="radio" id="PhD." name="title" value="">
+        </div>
+
+        <br>
+
+        <!--label for color field using select-->
+        <div>
+            <label for="color">favorite color:</label>
+            <select id="color" name="color">
+                <option value="red">Red</option>
+                <option value="blue">Blue</option>
+                <option value="green">Green</option>
+                <option value="yellow">Yellow</option>
+            </select>
+        </div>
+
+        <br>
+
+        <!--checkboxes-->
+        <div>
+            <label for="vehicle1">I have a bike</label>
+            <input type="checkbox" id="vehicle1" name="vehicle1" value="Bike">
+
+            <label for="vehicle2">I have a car</label>
+            <input type="checkbox" id="vehicle2" name="vehicle2" value="Car">
+        </div>
+
+        <br>
+
+        <!--submit and reset buttons-->
+        <div>
+            <input type="reset">
+        </div>
+        <br>
+        <div>
+            <input type="submit">
+        </div>
+    </form>
+</body>
+</html>
